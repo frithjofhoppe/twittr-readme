@@ -4,6 +4,7 @@ Here some explanation about the programm :-)
 ### Shortcuts
 - Ctrl + S | Saves the bird list to the file in the target folder
 - Del | Removes the current bird entry
+- Esc | Close the detail bird view
 
 ### Default picture
 When creating a new image a default picture is added. This can be replaced by changing the url. This picture is show as well, when the current content of the img url field not delivers a valid content
@@ -12,6 +13,11 @@ When creating a new image a default picture is added. This can be replaced by ch
 
 
 ## For the dev (Features)
+### File location
+The original content is located in under resources/tittrfx/pm. The saved content is in the target folder of the application (same folder structure)
+
+<img src="bird_location.png" width="300"/>
+
 ### Internationalization
 The translation are centrally located at the translation files in the folder
 ```resources/twittrfw/pm/i18n```
